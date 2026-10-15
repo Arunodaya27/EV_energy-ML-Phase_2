@@ -1,0 +1,21 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Dataset files: keep local unless redistribution is permitted
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Temporary and environment files
+.env
+*.log
+*.tmp
+
+# Optional large generated files
+# outputs/current_run/
